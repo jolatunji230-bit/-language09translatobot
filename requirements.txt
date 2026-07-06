@@ -1,2 +1,3 @@
-python-telegram-bot==20.3
-googletrans==4.0.0-rc1
+# This creates a clean file with NO BOM
+echo "python-telegram-bot==20.3" > requirements.txt
+echo "googletrans==4.0.0-rc1" >> requirements.txt
